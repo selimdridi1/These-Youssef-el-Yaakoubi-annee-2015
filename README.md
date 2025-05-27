@@ -1,4 +1,4 @@
-# 🚦 Modélisation des Comportements de Mobilité (Nested Logit)  
+#  Modélisation des Comportements de Mobilité (Nested Logit)  
 *Projet de Conduite de Projet - Master 1 Université de Strasbourg*
 
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Objectif du Projet
+##  Objectif du Projet
 
 Ce projet a pour but d'analyser et de modéliser les **décisions de mobilité des individus en milieu urbain**, en utilisant des données issues du recensement INSEE (2015).  
 Il s'appuie sur des modèles économétriques avancés de type **Nested Logit** pour capter la hiérarchie des décisions : du choix modal à la possession d’un véhicule.
@@ -19,7 +19,7 @@ Nous étudions trois populations distinctes :
 
 ---
 
-## 🧠 Méthodologie : Nested Logit Hiérarchique
+##  Méthodologie : Nested Logit Hiérarchique
 
 Chaque groupe est modélisé à travers des niveaux imbriqués (Nested Logit), reflétant la structure des choix :
 
@@ -36,7 +36,7 @@ Chaque groupe est modélisé à travers des niveaux imbriqués (Nested Logit), r
 
 ---
 
-## 🧾 Données
+##  Données
 
 Les données proviennent du **recensement de la population 2015** en Île-de-France.  
 Elles sont stockées au format `.parquet` et traitées à l’aide de `pandas`, `polars` et `pyarrow`.
